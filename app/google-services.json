@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "560305619997",
+    "firebase_url": "https://fitforme-app-j-default-rtdb.firebaseio.com",
+    "project_id": "fitforme-app-j",
+    "storage_bucket": "fitforme-app-j.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560305619997:android:fc256b655b51aa221072f4",
+        "android_client_info": {
+          "package_name": "co.com.example.gestionarte"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0mDd6FLsLq_mdDm0NfyZeo2WaVETozrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560305619997:android:2321664736ba49661072f4",
+        "android_client_info": {
+          "package_name": "co.com.myapp.cesde"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0mDd6FLsLq_mdDm0NfyZeo2WaVETozrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

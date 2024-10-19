@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gestionarte</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="usuario">Correo</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="numero_de_identificacion">Numero de identificación</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="telefono">Telefono</string>
+    <string name="registrar_un_gasto">Registrar un gasto</string>
+    <string name="movimientos">Movimientos</string>
+    <string name="nombre_de_la_compra">Nombre de la Compra</string>
+    <string name="monto_gastado">Monto gastado</string>
+    <string name="fecha_del_gasto">Fecha del gasto DD-MM-YY</string>
+    <string name="descripcion_del_gasto">Descripción del gasto</string>
+    <string name="registrar">Registrar</string>
+</resources>

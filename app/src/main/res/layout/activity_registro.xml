@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <Button
+                android:id="@+id/BRegistro_volver"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/vector_logo" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gestionarte"
+                android:textColor="@color/secundaryColor"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Registrate!"
+                android:textColor="@color/terciarColor"
+                android:textSize="40sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Para ser parte de la familia."
+                android:textColor="@color/secundaryColor"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp">
+
+                <EditText
+                    android:id="@+id/ETregistro_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:hint="@string/numero_de_identificacion"
+                    android:inputType="number"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:textColor="@color/secundaryColor"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/ETregistro_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="text"
+                    android:hint="@string/nombre"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:textColor="@color/secundaryColor"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/ETregistro_lastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="text"
+                    android:hint="@string/apellidos"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:textColor="@color/secundaryColor"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/ETregistro_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="number"
+                    android:hint="@string/telefono"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:textColor="@color/secundaryColor"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/ETregistro_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="@string/usuario"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:textColor="@color/secundaryColor"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/ETregistro_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="textPassword"
+                    android:hint="@string/contrasena"
+                    android:paddingLeft="20sp"
+                    android:paddingRight="20sp"
+                    android:textColor="@color/secundaryColor"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/Bregistro_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/button_default"
+                    android:text="@string/registrarse"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
